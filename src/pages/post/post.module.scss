@@ -1,1 +1,48 @@
-// TODO
+.container {
+    margin: 0 auto;
+    margin-top: 2.625rem;
+    margin-bottom: 5rem;
+
+    .banner {
+        height: 25rem;
+        max-width: 600;
+    }
+
+    .post {
+        margin-top: 5rem;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .info {
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .textInfo {
+        margin-left: 0.6rem;
+        color: var(--info);
+    }
+
+    .infoItemContainer {
+        margin-left: 1.875rem;
+    }
+
+    .content{
+        margin-top: 4.125rem;
+    }
+
+    .heading{
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .body{
+        margin-top: 4rem;
+        font-size: 1.125rem;
+    }
+}

@@ -1,1 +1,59 @@
-// TODO
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 5rem;
+
+    height: calc(100vh - 5rem);
+
+    .logo {
+        width: 15rem;
+        height: 1.625rem;
+    }
+
+    .postContainer {
+    }
+
+    .post {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .title {
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 1.75rem;
+    }
+
+    .subtitle {
+        display: block;
+        margin-top: 0.5rem;
+        font-size: 1.125rem;
+    }
+
+    .info {
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .textInfo {
+        margin-left: 0.6rem;
+        color: var(--info);
+    }
+
+    .authorContainer {
+        margin-left: 1.875rem;
+    }
+
+    .loadButton {
+        background-color: rgba(0, 0, 0, 0);
+        outline: none;
+        border: none;
+        color: var(--highlight);
+        width: fit-content;
+        margin-top: 4.125rem;
+    }
+}
